@@ -1,0 +1,35 @@
+/* ********************Tag Selectors*************** */
+body{
+  background-color: wheat;
+}
+h1{
+  color: black; font-size: 80px;
+}
+p{font-size: 30px; font-style: italic;}
+
+img:hover{
+      background-color: gold;
+}
+/* ********************class Selectors*************** */
+.apple{background-color: red;}
+.microsoft{background-color: green}
+.circular{
+  border-radius: 50%
+}
+.circle{
+  border-radius: 100%
+}
+/* ********************ID Selectors*************** */
+#heading{
+  color: blue;
+}
+.hemlo{
+  border: 5px outset red;
+  background-color: green;
+  text-align: center;
+  width: 20%
+}
+.hemlo:hover{
+  color: silver;
+  background-color: black;
+}
